@@ -3,9 +3,7 @@
 public class Main {
     public static void main(String[] args) {
 
-        //ALFA OG OMEGA v2.0
-//FIXSHIT
-        printNumbers();
+       printNumbers(1, 10);
 
     }
 
@@ -33,4 +31,15 @@ public class Main {
 
         }
     }
+
+    public static void printNumbers(int start, int end){
+       int i = start;
+       while(i <= end){
+           System.out.println(i);
+           i++;
+
+       }
+
+
+       }
 }
