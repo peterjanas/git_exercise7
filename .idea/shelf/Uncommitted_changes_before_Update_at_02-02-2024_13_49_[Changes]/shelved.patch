@@ -1,0 +1,19 @@
+Index: src/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\r\n\r\npublic class Main {\r\n    public static void main(String[] args) {\r\n\r\n       printNumbers(1, 10);\r\n\r\n    }\r\n\r\n    public static void printNumbers(){\r\n        for(int i = 1; i < 200; i++){\r\n\r\n\r\n            if(i % 3 == 0 && i % 5 == 0){\r\n                System.out.println(\"BuzzFizz\");\r\n\r\n            }\r\n\r\n            else if(i % 3 == 0){\r\n                System.out.println(\"Fizz\");\r\n\r\n            }\r\n\r\n            else if(i % 5 == 0){\r\n                System.out.println(\"Buzz!\");\r\n\r\n            }\r\n            else{\r\n                System.out.println(i);\r\n            }\r\n\r\n        }\r\n    }\r\n\r\n    public static void printNumbers(int start, int end){\r\n       int i = start;\r\n       while(i <= end){\r\n           System.out.println(i);\r\n           i++;\r\n\r\n       }\r\n\r\n\r\n       }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Main.java b/src/Main.java
+--- a/src/Main.java	(revision 7b62e01d37f1e81c759e454a9aa19ae4e03f426a)
++++ b/src/Main.java	(date 1706878010781)
+@@ -3,7 +3,7 @@
+ public class Main {
+     public static void main(String[] args) {
+ 
+-       printNumbers(1, 10);
++       printNumbers(1, 11);
+ 
+     }
+ 

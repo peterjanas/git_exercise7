@@ -5,6 +5,8 @@ public class Main {
 
         printNumber(1, 10);
 
+       printNumbers();
+
     }
 
     public static void printNumbers() {
