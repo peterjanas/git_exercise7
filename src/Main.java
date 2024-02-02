@@ -3,8 +3,9 @@
 public class Main {
     public static void main(String[] args) {
 
-       printNumbers(1, 14);
-       //hello
+       printNumbers(1, 10);
+
+       printNumbers();
 
     }
 
